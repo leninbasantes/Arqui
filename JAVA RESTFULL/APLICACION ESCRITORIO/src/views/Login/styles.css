@@ -1,0 +1,78 @@
+.contenedor-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Contenedor-Login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.Contenedor-Imagen {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Contenedor-Imagen img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.Input-user,
+.Input-password {
+  margin-bottom: 20px;
+}
+
+.Input-user input,
+.Input-password input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Crear-usuario {
+  font-size: 13px;
+  padding: 15px 15px;
+  margin-top: auto;
+}
+
+.Crear-usuario span {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.Iniciar-sesion button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Iniciar-sesion button:hover {
+  background-color: #45a049;
+}
+
+.Contenedor-titulo {
+    align-items: center;
+    text-align: center;
+    padding: 15px 15px;
+}

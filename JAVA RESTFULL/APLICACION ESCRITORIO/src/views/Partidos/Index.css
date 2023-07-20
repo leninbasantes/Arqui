@@ -1,0 +1,56 @@
+.partidos-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.partidos-table th,
+.partidos-table td {
+  padding: 10px;
+  text-align: center; /* Agregado para centrar las columnas */
+  border-bottom: 1px solid #ddd;
+}
+
+.partidos-table th {
+  background-color: #f2f2f2;
+}
+
+.adquirir-button {
+  margin-right: 15px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adquirir-button:hover {
+  background-color: #45a049;
+}
+
+.titulo-partidos {
+  margin: 25px 25px;
+  text-align: center;
+}
+
+.columna-centrada {
+  text-align: center;
+}
+
+.boton-crear {
+  margin: 15px 15px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.small-image {
+  width: 50px; /* Ajusta el valor según tu preferencia */
+  height: 50px; /* Ajusta el valor según tu preferencia */
+}
